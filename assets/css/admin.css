@@ -1,0 +1,36 @@
+.cpw-cryptocurrency-table-options .mode.hide {
+    display: none;
+}
+
+.cpw-cryptocurrency-table-options .add-more-button {
+    margin-top: 10px;
+}
+
+.cpw-cryptocurrency-table-options .remove-button {
+    color: red;
+    vertical-align: middle;
+    line-height: 28px;
+    padding-left: 5px;
+}
+
+.cpw-cryptocurrency-table-options .address-item + .address-item {
+    margin-top: 5px;
+}
+
+.cpw-cryptocurrency-table-options .note {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.cpw-cryptocurrency-table-options .address-item .address-item-error-message {
+    display: none;
+    padding: 5px 0;
+}
+
+.cpw-cryptocurrency-table-options .address-item.address-error .address-item-error-message {
+    display: block;
+}
+
+.cpw-cryptocurrency-table-options .address-item.address-error input {
+    border-color: red;
+}
